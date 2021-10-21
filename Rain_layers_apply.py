@@ -27,7 +27,7 @@ Path = "./ground_truth"
 # Se crea el kernel para crear el difuminado de las rayas de lluvia
 kernel = np.ones((5,5),np.float32)/20
 
-for i in range(1,10):
+for i in range(1,3):
     """Seleccion de la imagen a modificar (en este caso se usan imagenes
     enumeradas, por lo cual se usa un ciclo for para modificar varias 
     imagenes a la vez), esta de la misma manera se redimensiona a 1024x1024 
